@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pine Tour</title>
+    <style>
+        .FB {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+            color: white;
+        }
+
+        .IG {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;background-color: azure;">
+    <div style="background-color: black; padding: 5px;">
+        <p style="text-align: center; color: white; margin: 0; font-size: 10px;">pine</p>
+        <p style="text-align: center; color: white; margin: 0; font-size: 10px;">tour</p>
+    </div>
+</body>
+
+<body>
+    <div style="padding: 50px;">
+        <h1 style="text-align: center;">Order Your Trip</h1>
+    </div>
+
+    <div>
+        <h3 style="text-align: center;">Choose your plan</h3>
+    </div>
+    <div style="text-align: center;">
+        <button style="border: none;padding: 20px 38px;background-color: white;">Starter Pack</button>
+        <button style="border: none;padding: 20px 38px;background-color: white;">Luxury Pack</button>
+    </div>
+    <div style="display: flex; justify-content: center; padding: 50px;">
+        <div>
+            <h3 style="display: flex;">Contact Form</h3>
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname" style="display: flex;">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname" style="display: flex;">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country" style="display: flex;">Country</label>
+                    <select id="country" name="country" style="display: flex;">
+                        <option value="australia">Mongolia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject" style="display: flex;">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" style="display: flex;" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 400px;">
+        <div style="background-color: black; padding: 40px; display: flex;justify-content: space-between;">
+            <div>
+                <p style="text-align: left 1000px; color: white; margin: 0; font-size: 20px;">Pine</p>
+                <p style="text-align: left 1000px; color: white; margin: 0; font-size: 20px;">Tour</p>
+            </div>
+                <div style="display: flex;">
+                    <div style="display: flex;">
+                        <img src="FB.png" alt="FB" class="FB">
+                        <a href="Facebook.html"
+                            style="color: white; padding: 3px; margin: 0;font-size: 15px;background-color: black;border: none;">Facebook</a>
+                    </div>
+                    <div style="display: flex;">
+                        <img src="IG.jpg" alt="IG" class="IG">
+                        <a href="Instagram.html"
+                            style="color: white; padding: 3px; margin: 0;font-size: 15px;background-color: black;border: none;">Instagram</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
